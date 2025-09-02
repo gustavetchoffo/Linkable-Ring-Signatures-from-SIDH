@@ -64,7 +64,7 @@ from sage.structure.element import RingElement
 from sage.schemes.elliptic_curves.ell_generic import EllipticCurve_generic
 from sage.schemes.elliptic_curves.ell_point import EllipticCurvePoint_field
 
-from utilities.fast_sqrt import sqrt_Fp2
+from two_isogenies.Theta_SageMath.utilities.fast_sqrt import sqrt_Fp2
 
 # =================================================== #
 #     Class for the Kummer Line x(x^2 + Ax + 1)       #

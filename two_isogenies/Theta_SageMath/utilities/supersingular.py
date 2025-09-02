@@ -6,9 +6,9 @@ Helper functions for the supersingular elliptic curve computations in FESTA
 from sage.all import ZZ
 
 # Local imports
-from utilities.order import has_order_D
-from utilities.discrete_log import weil_pairing_pari
-from utilities.fast_sqrt import sqrt_Fp2
+from two_isogenies.Theta_SageMath.utilities.order import has_order_D
+from two_isogenies.Theta_SageMath.utilities.discrete_log import weil_pairing_pari
+from two_isogenies.Theta_SageMath.utilities.fast_sqrt import sqrt_Fp2
 
 # =========================================== #
 #   Extract coefficent from Montgomery curve  #

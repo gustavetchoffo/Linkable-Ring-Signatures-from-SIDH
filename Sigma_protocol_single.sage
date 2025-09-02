@@ -1,4 +1,4 @@
-load('/home/gustave/sage/Ring_Signature_SIDH/setup.sage')  
+load('/home/gustave/sage/Linkable_Ring_Signatures_from_SIDH/setup.sage')  
 
 class KeyGen():
     def __init__(self,pp,rd):
@@ -89,6 +89,7 @@ class Commitment():
         k2=pp.k2
         t=self.t
         Fq=pp.Fq
+        B=pp.deg_psi()
         self.a,self.rd=PRNG(self.seed,n,B,pp.lamda)
         E0=self.pp.initial_curve()
         
@@ -158,6 +159,7 @@ def verivication(pp,R,com,ch,resp):
     [C0,C1]=com
     d1=pp.d1()
     d2=pp.d2()
+    B=pp.deg_psi()
     if ch==2:
         [vect_K_psi,rd0]=resp
         xT0=vect_K_psi[0]

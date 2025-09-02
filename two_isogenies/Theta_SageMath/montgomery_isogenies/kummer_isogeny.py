@@ -64,7 +64,7 @@ from sage.all import prod, ZZ, PolynomialRing
 from sage.rings.generic import ProductTree
 
 # Local imports
-from montgomery_isogenies.kummer_line import KummerLine, KummerPoint
+from two_isogenies.Theta_SageMath.montgomery_isogenies.kummer_line import KummerLine, KummerPoint
 
 # =================================================== #
 # Generic class for creating an isogeny between       #

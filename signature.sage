@@ -1,4 +1,4 @@
-load('/home/gustave/sage/Ring_Signature_SIDH/full_sigma_protocol.sage') 
+load('/home/gustave/sage/Linkable_Ring_Signatures_from_SIDH/full_sigma_protocol.sage') 
 
 def RS_sign(pp,sk,t,Ring,msg):
     fcom=full_Commitment(pp,sk,t,Ring)
@@ -31,12 +31,12 @@ t=2
 sk=keys[t].sk
 msg='isogeny-based ring signature'
 print('.....................................................')
-for _ in range(10):
-    t1=time.time()
-    sigma=RS_sign(pp,sk,t,Ring,msg)
-    t2=time.time()
-    print('signature: time=',t2-t1,'s')
-    t3=time.time()
-    verif=RS_verify(pp,Ring,msg,sigma)
-    t4=time.time()
-    print('verification: time=',t4-t3,'s ',verif)
+#for _ in range(10):
+t1=time.time()
+sigma=RS_sign(pp,sk,t,Ring,msg)
+t2=time.time()
+print('signature: time=',t2-t1,'s')
+t3=time.time()
+verif=RS_verify(pp,Ring,msg,sigma)
+t4=time.time()
+print('verification: time=',t4-t3,'s ',verif)

@@ -1,5 +1,5 @@
 import os
-load('/home/gustave/sage/Ring_Signature_SIDH/Sigma_protocol_single.sage') 
+load('/home/gustave/sage/Linkable_Ring_Signatures_from_SIDH/Sigma_protocol_single.sage') 
 class full_Commitment():
     def __init__(self,pp,sk,t,Ring):
         self.pp=pp

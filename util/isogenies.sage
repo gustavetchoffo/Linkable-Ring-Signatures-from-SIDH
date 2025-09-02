@@ -1,6 +1,6 @@
-from two_isogenies.Theta_SageMath.utilities.supersingular import *
-from two_isogenies.Theta_SageMath.montgomery_isogenies.kummer_isogeny import *
-from two_isogenies.Theta_SageMath.utilities.discrete_log import *
+from Linkable_Ring_Signatures_from_SIDH.two_isogenies.Theta_SageMath.utilities.supersingular import *
+from Linkable_Ring_Signatures_from_SIDH.two_isogenies.Theta_SageMath.montgomery_isogenies.kummer_isogeny import *
+from Linkable_Ring_Signatures_from_SIDH.two_isogenies.Theta_SageMath.utilities.discrete_log import *
 
 #...............................................................................|
 #................  FUNCTIONS RELATED TO ISOGENIES ..............................|

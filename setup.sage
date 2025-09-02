@@ -4,9 +4,9 @@ import sys
 import sage.all
 import time
 import hashlib
-load('/home/gustave/sage/Ring_Signature_SIDH/util/generalities.sage')
+load('/home/gustave/sage/Linkable_Ring_Signatures_from_SIDH/util/generalities.sage')
 #load('/home/gustave/sage/SIDH_RS/isogenies_based_functions.sage')
-load('/home/gustave/sage/Ring_Signature_SIDH/util/isogenies.sage')
+load('/home/gustave/sage/Linkable_Ring_Signatures_from_SIDH/util/isogenies.sage')
 
 
 
@@ -140,7 +140,6 @@ class SetUp():
         return f"SetUp for (Linkeable) Ring Signature with security parameter {self.lamda}:\n p={factor(self.p+1)}-1;\n E0={self.initial_curve()}"
 
 
-print('hello')
 '''
        
 #.....................................................
