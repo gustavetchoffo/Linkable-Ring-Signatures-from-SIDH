@@ -139,6 +139,8 @@ class SetUp():
     def __repr__(self):
         return f"SetUp for (Linkeable) Ring Signature with security parameter {self.lamda}:\n p={factor(self.p+1)}-1;\n E0={self.initial_curve()}"
 
+
+print('hello')
 '''
        
 #.....................................................
